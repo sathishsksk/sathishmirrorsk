@@ -1,15 +1,15 @@
 {
     "name": "slam-mirrorbot",
     "description": "A Telegram bot for all your mirror needs",
-    "logo": "https://telegra.ph/file/019996f816db9ed576cff.jpg",
+    "logo": "https://pbs.twimg.com/profile_banners/1003909132796116992/1607060050/1500x500",
     "keywords": [
       "bot",
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/ayushteke/slam_aria_mirror_bot_HEROKU",
-    "website": "https://github.com/ayushteke/slam_aria_mirror_bot_HEROKU",
-    "success_url": "https://t.me/TORRNET_TO_GDRIVE",
+    "repository": "https://github.com/sathishsksk/sathishmirrorsk",
+    "website": "https://github.com/sathishsksk/sathishmirrorsk",
+    "success_url": "https://github.com/sathishsksk/sathishmirrorsk",
     "stack": "container",
     "env": {
       "ENV": {
@@ -149,7 +149,7 @@
       },
       "IMAGE_URL": {
         "description": "Show Image/Logo in /start message, Use telegra.ph or any direct link image.",
-        "value": "https://telegra.ph/file/019996f816db9ed576cff.jpg",
+        "value": "https://pbs.twimg.com/profile_banners/1003909132796116992/1607060050/1500x500",
         "required": false
        },
       "VIEW_LINK": {
