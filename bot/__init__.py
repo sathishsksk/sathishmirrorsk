@@ -291,6 +291,12 @@ try:
 except KeyError:
     STOP_DUPLICATE = False
 try:
+    IMAGE_URL = getConfig('IMAGE_URL')
+    if len(IMAGE_URL) == 0:
+    IMAGE_URL = 'https://pbs.twimg.com/profile_banners/1003909132796116992/1607060050/1500x500'
+except KeyError:
+    IMAGE_URL = 'https://pbs.twimg.com/profile_banners/1003909132796116992/1607060050/1500x500'
+try:
     VIEW_LINK = getConfig('VIEW_LINK')
     VIEW_LINK = VIEW_LINK.lower() == 'true'
 except KeyError:
